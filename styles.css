@@ -7955,6 +7955,19 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
   align-items: flex-start !important;
   padding-top: 40px !important;
 }
+
+.index-hero-section {
+  align-items: flex-start !important;
+  padding-top: 0px !important;
+}
+
+.index-hero-section .hero-overlay {
+  padding-top: 16px !important;
+}
+
+.index-hero-section .hero-scrim {
+  opacity: 0.55 !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
