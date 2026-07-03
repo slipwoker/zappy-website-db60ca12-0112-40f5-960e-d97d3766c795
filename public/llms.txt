@@ -1,0 +1,87 @@
+# כרמית כהן — Generative Engine Optimization Map
+
+> Carmit Cohen is a babysitter seeking employment in morning-hours childcare. She needs a high-converting, professional landing page that positions her as a trustworthy, skilled caregiver targeting families who need reliable morning childcare. The page should be persuasive, visually appealing, and designed to generate quality inquiries from suitable families while helping her stand out in the job market.
+
+---
+
+## Pages
+
+### בית
+https://-db60ca12.zappy5.app
+מחפשים בייביסיטר אמינה ומסורה לשעות הבוקר? כרמית כהן מציעה טיפול חם ואיכותי לילדיכם. לחצו לפרטים ולהתאמת מטפלת שתעניק לכם שקט אמיתי.
+
+### כושר טיפולי בוקר
+https://-db60ca12.zappy5.app/morning-care-fit
+גלו איך כרמית כהן מתאימה את הטיפול הבוקרי לצרכים הייחודיים של ילדיכם. שילוב מנצח של ניסיון, רגישות ואנרגיה חיובית. התחילו את הבוקר נכון!
+
+### אודות כרמית
+https://-db60ca12.zappy5.app/about
+הכירו את כרמית כהן, בייביסיטר מנוסה עם תשוקה אמיתית לטיפול בילדים בשעות הבוקר. קראו על הגישה הייחודית שלה ולמה הורים סומכים עליה.
+
+### שאלות הורים
+https://-db60ca12.zappy5.app/parent-questions
+כל מה שרציתם לשאול בייביסיטר לבוקר – מרוכז במקום אחד. כרמית כהן עונה על שאלות נפוצות כדי שתוכלו לצאת לעבודה בראש שקט. היכנסו עכשיו!
+
+### צור קשר
+https://-db60ca12.zappy5.app/contact
+מוכנים לשדרג את הבוקר המשפחתי? צרו קשר עם כרמית כהן עוד היום לשיחת התאמה קצרה. בייביסיטר מקצועית שמחכה לשמוע מכם!
+
+### תודה — ההודעה התקבלה
+https://-db60ca12.zappy5.app/thank-you
+כרמית כהן - תודה — ההודעה התקבלה
+
+## Legal & Policy
+
+### Privacy Policy
+https://-db60ca12.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-db60ca12.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-db60ca12.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-db60ca12.zappy5.app/contact
+- Endpoint: https://-db60ca12.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About כרמית כהן
+Carmit Cohen is a babysitter seeking employment in morning-hours childcare. She needs a high-converting, professional landing page that positions her as a trustworthy, skilled caregiver targeting families who need reliable morning childcare. The page should be persuasive, visually appealing, and designed to generate quality inquiries from suitable families while helping her stand out in the job market.
+
+## Target Audience
+- הורים המחפשים בייביסיטר לשעות הבוקר
+- הורים לשעות הבוקר
+- מקצוענים במשרה חלקית
+- הורים טריים
+
+## Industry
+Childcare & Babysitting
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-db60ca12.zappy5.app/sitemap.xml
+- Robots: https://-db60ca12.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-db60ca12.zappy5.app/llms-full.txt
