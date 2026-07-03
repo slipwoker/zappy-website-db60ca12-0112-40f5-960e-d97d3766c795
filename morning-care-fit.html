@@ -228,6 +228,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="התאמה אישית לבוקר מושלם – כרמית כהן">
     <meta name="twitter:description" content="גלו איך כרמית כהן מתאימה את הטיפול הבוקרי לצרכים הייחודיים של ילדיכם. שילוב מנצח של ניסיון, רגישות ואנרגיה חיובית. התחילו את הבוקר נכון!">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://karmit-cohen.zappy5.app#organization","name":"כרמית כהן","url":"https://karmit-cohen.zappy5.app","description":"Carmit Cohen is a babysitter seeking employment in morning-hours childcare. She needs a high-converting, professional landing page that positions her as a trustworthy, skilled caregiver targeting families who need reliable morning childcare. The page should be persuasive, visually appealing, and designed to generate quality inquiries from suitable families while helping her stand out in the job market.","contactPoint":[{"@type":"ContactPoint","contactType":"customer service","telephone":"0546429908"}]},{"@type":"WebSite","@id":"https://karmit-cohen.zappy5.app#website","url":"https://karmit-cohen.zappy5.app","name":"כרמית כהן","publisher":{"@id":"https://karmit-cohen.zappy5.app#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://karmit-cohen.zappy5.app"},{"@type":"ListItem","position":2,"name":"Morning Care Fit","item":"https://karmit-cohen.zappy5.app/morning-care-fit"}]}]}</script>
     <meta property="og:type" content="website">
   <meta property="og:locale" content="he_IL">
   
@@ -352,22 +353,22 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="0546429908" aria-label="Call">
+  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
     </svg>
   </button>
 
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
-      <a href="/" class="logo-link"><img class="logo" src="/assets/site-----image-1.webp" alt="כרמית כהן"></a>
+      <a href="/" class="logo-link"><img class="logo" src="/assets/site------------------image-1.webp" alt="כרמית כהן"></a>
     </div><ul class="nav-menu" id="navMenu"><li><a href="/">בית</a></li><li><a href="/morning-care-fit">כושר טיפולי בוקר</a></li><li><a href="/about">אודות כרמית</a></li><li><a href="/parent-questions">שאלות הורים</a></li><li class="mobile-contact-link nav-cta-mobile-item"><a href="/contact" class="nav-cta-btn">צור קשר</a></li></ul></div>
     
     
@@ -818,7 +819,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '0546429908';
+          : '[business_phone]';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -871,11 +872,11 @@
       <article class="service-card">
         <div class="service-icon-wrapper">
           <svg class="service-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" fill="none"></circle>
-            <path d="M14 26V24C14 18.477 18.477 14 24 14C29.523 14 34 18.477 34 24V26" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
-            <path d="M16 26H32V34C32 36.209 30.209 38 28 38H20C17.791 38 16 36.209 16 34V26Z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M20 30V34" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-            <path d="M28 30V34" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" fill="none"/>
+            <path d="M14 26V24C14 18.477 18.477 14 24 14C29.523 14 34 18.477 34 24V26" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M16 26H32V34C32 36.209 30.209 38 28 38H20C17.791 38 16 36.209 16 34V26Z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M20 30V34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <path d="M28 30V34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
         </div>
         <h3>השגחת בוקר רגועה</h3>
@@ -884,10 +885,10 @@
       <article class="service-card">
         <div class="service-icon-wrapper">
           <svg class="service-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" fill="none"></circle>
-            <path d="M18 18C18 14.686 20.686 12 24 12C27.314 12 30 14.686 30 18C30 21.314 27.314 24 24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
-            <path d="M16 36C16 30.477 19.582 26 24 26C28.418 26 32 30.477 32 36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
-            <circle cx="24" cy="18" r="2" fill="currentColor"></circle>
+            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" fill="none"/>
+            <path d="M18 18C18 14.686 20.686 12 24 12C27.314 12 30 14.686 30 18C30 21.314 27.314 24 24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M16 36C16 30.477 19.582 26 24 26C28.418 26 32 30.477 32 36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="24" cy="18" r="2" fill="currentColor"/>
           </svg>
         </div>
         <h3>טיפול בתינוקות ופעוטות</h3>
@@ -896,11 +897,11 @@
       <article class="service-card">
         <div class="service-icon-wrapper">
           <svg class="service-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" fill="none"></circle>
-            <path d="M12 16H16L19 32H29L32 16H36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M18 22H30" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-            <circle cx="21" cy="36" r="2" fill="currentColor"></circle>
-            <circle cx="29" cy="36" r="2" fill="currentColor"></circle>
+            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" fill="none"/>
+            <path d="M12 16H16L19 32H29L32 16H36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M18 22H30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="21" cy="36" r="2" fill="currentColor"/>
+            <circle cx="29" cy="36" r="2" fill="currentColor"/>
           </svg>
         </div>
         <h3>משחק, יצירה ושגרה</h3>
@@ -909,11 +910,11 @@
       <article class="service-card">
         <div class="service-icon-wrapper">
           <svg class="service-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" fill="none"></circle>
-            <path d="M14 18H34V34C34 36.209 32.209 38 30 38H18C15.791 38 14 36.209 14 34V18Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"></path>
-            <path d="M18 18V14C18 12.343 19.343 11 21 11H27C28.657 11 30 12.343 30 14V18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
-            <path d="M22 26L24 28L26 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M24 28V32" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" fill="none"/>
+            <path d="M14 18H34V34C34 36.209 32.209 38 30 38H18C15.791 38 14 36.209 14 34V18Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+            <path d="M18 18V14C18 12.343 19.343 11 21 11H27C28.657 11 30 12.343 30 14V18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M22 26L24 28L26 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M24 28V32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
         </div>
         <h3>תקשורת שוטפת עם ההורים</h3>
@@ -937,7 +938,7 @@
         <div class="morning-care-fit-process-section__step-number">
           <span>1</span>
           <svg class="morning-care-fit-process-section__step-connector" viewBox="0 0 2 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <line x1="1" y1="0" x2="1" y2="80" stroke="var(--accent)" stroke-width="2" stroke-dasharray="4 6"></line>
+            <line x1="1" y1="0" x2="1" y2="80" stroke="var(--accent)" stroke-width="2" stroke-dasharray="4 6"/>
           </svg>
         </div>
         <div class="morning-care-fit-process-section__step-content">
@@ -951,7 +952,7 @@
         <div class="morning-care-fit-process-section__step-number">
           <span>2</span>
           <svg class="morning-care-fit-process-section__step-connector" viewBox="0 0 2 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <line x1="1" y1="0" x2="1" y2="80" stroke="var(--accent)" stroke-width="2" stroke-dasharray="4 6"></line>
+            <line x1="1" y1="0" x2="1" y2="80" stroke="var(--accent)" stroke-width="2" stroke-dasharray="4 6"/>
           </svg>
         </div>
         <div class="morning-care-fit-process-section__step-content">
@@ -990,7 +991,7 @@
         <div class="morning-care-fit-qualifiers-section__column-header">
           <span class="morning-care-fit-qualifiers-section__icon-wrapper morning-care-fit-qualifiers-section__icon-wrapper--positive">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </span>
           <h3>משפחות שמתאימות לי במיוחד</h3>
@@ -998,31 +999,31 @@
         <ul class="morning-care-fit-qualifiers-section__list">
           <li>
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             <span>הורים הזקוקים למטפלת קבועה בשעות הבוקר (07:00–13:00) לטיפול יומיומי.</span>
           </li>
           <li>
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             <span>משפחות שמחפשות סידור אמין ויציב לטווח ארוך, עם לוח זמנים קבוע.</span>
           </li>
           <li>
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             <span>הורים המעריכים תקשורת פתוחה, מכבדת ומקצועית לאורך כל הדרך.</span>
           </li>
           <li>
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             <span>ילדים הזקוקים לסביבה רגועה, חמה ומכילה עם תשומת לב אישית.</span>
           </li>
           <li>
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             <span>משפחות מאזור חדרה, פרדס חנה, אור עקיבא והסביבה הקרובה.</span>
           </li>
@@ -1034,8 +1035,8 @@
         <div class="morning-care-fit-qualifiers-section__column-header">
           <span class="morning-care-fit-qualifiers-section__icon-wrapper morning-care-fit-qualifiers-section__icon-wrapper--caution">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 9V13M12 17H12.01" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
-              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"></circle>
+              <path d="M12 9V13M12 17H12.01" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
             </svg>
           </span>
           <h3>מה פחות מתאים לי?</h3>
@@ -1043,25 +1044,25 @@
         <ul class="morning-care-fit-qualifiers-section__list morning-care-fit-qualifiers-section__list--caution">
           <li>
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             <span>צרכים לשעות לילה מאוחרות או סופי שבוע – אני זמינה בעיקר בשעות הבוקר.</span>
           </li>
           <li>
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             <span>בקשות חד-פעמיות ללא אופק להמשכיות – אני מעדיפה השמה יציבה לטווח בינוני-ארוך.</span>
           </li>
           <li>
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             <span>לוחות זמנים משתנים מיום ליום ללא תיאום מראש – חשוב לי לשמור על שגרה יציבה.</span>
           </li>
           <li>
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             <span>מיקומים מרוחקים משמעותית מאזור השרון – אני מתמקדת בחדרה, פרדס חנה, אור עקיבא, קיסריה ועמק חפר.</span>
           </li>
@@ -1073,7 +1074,7 @@
       <a href="#contact" class="morning-care-fit-qualifiers-section__btn">
         <span style="color: #1A1A1A !important">בואו נבדוק התאמה</span>
         <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </a>
     </div>
@@ -1081,29 +1082,29 @@
 
   <!-- Decorative scattered dots pattern (top-right) -->
   <svg data-no-icon-edit="true" aria-hidden="true" class="morning-care-fit-qualifiers-section__dots-pattern" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="20" cy="20" r="4" fill="#C97BB2" opacity="0.12"></circle>
-    <circle cx="80" cy="15" r="5" fill="#C97BB2" opacity="0.1"></circle>
-    <circle cx="140" cy="25" r="3.5" fill="#C97BB2" opacity="0.14"></circle>
-    <circle cx="50" cy="70" r="6" fill="#C97BB2" opacity="0.08"></circle>
-    <circle cx="120" cy="65" r="4.5" fill="#C97BB2" opacity="0.11"></circle>
-    <circle cx="180" cy="75" r="3" fill="#C97BB2" opacity="0.13"></circle>
-    <circle cx="30" cy="130" r="5" fill="#C97BB2" opacity="0.09"></circle>
-    <circle cx="100" cy="125" r="4" fill="#C97BB2" opacity="0.12"></circle>
-    <circle cx="160" cy="135" r="5.5" fill="#C97BB2" opacity="0.07"></circle>
-    <circle cx="70" cy="180" r="3.5" fill="#C97BB2" opacity="0.1"></circle>
-    <circle cx="140" cy="175" r="4.5" fill="#C97BB2" opacity="0.11"></circle>
-    <circle cx="190" cy="185" r="3" fill="#C97BB2" opacity="0.14"></circle>
+    <circle cx="20" cy="20" r="4" fill="#C97BB2" opacity="0.12"/>
+    <circle cx="80" cy="15" r="5" fill="#C97BB2" opacity="0.1"/>
+    <circle cx="140" cy="25" r="3.5" fill="#C97BB2" opacity="0.14"/>
+    <circle cx="50" cy="70" r="6" fill="#C97BB2" opacity="0.08"/>
+    <circle cx="120" cy="65" r="4.5" fill="#C97BB2" opacity="0.11"/>
+    <circle cx="180" cy="75" r="3" fill="#C97BB2" opacity="0.13"/>
+    <circle cx="30" cy="130" r="5" fill="#C97BB2" opacity="0.09"/>
+    <circle cx="100" cy="125" r="4" fill="#C97BB2" opacity="0.12"/>
+    <circle cx="160" cy="135" r="5.5" fill="#C97BB2" opacity="0.07"/>
+    <circle cx="70" cy="180" r="3.5" fill="#C97BB2" opacity="0.1"/>
+    <circle cx="140" cy="175" r="4.5" fill="#C97BB2" opacity="0.11"/>
+    <circle cx="190" cy="185" r="3" fill="#C97BB2" opacity="0.14"/>
   </svg>
 
   <!-- Sunrise arc decorative blob (bottom-left) -->
   <svg data-no-icon-edit="true" aria-hidden="true" class="morning-care-fit-qualifiers-section__sunrise-arc" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
-    <ellipse cx="160" cy="220" rx="280" ry="180" fill="#F4A261" opacity="0.08"></ellipse>
-    <ellipse cx="160" cy="240" rx="220" ry="140" fill="#F4A261" opacity="0.06"></ellipse>
+    <ellipse cx="160" cy="220" rx="280" ry="180" fill="#F4A261" opacity="0.08"/>
+    <ellipse cx="160" cy="240" rx="220" ry="140" fill="#F4A261" opacity="0.06"/>
   </svg>
 
   <!-- Organic blob accent (bottom-right) -->
   <svg data-no-icon-edit="true" aria-hidden="true" class="morning-care-fit-qualifiers-section__organic-blob" viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
-    <path d="M130,10 C190,5 250,40 255,100 C260,160 200,195 140,190 C80,185 10,160 5,100 C0,40 70,15 130,10 Z" fill="#F5EDE4" opacity="0.7"></path>
+    <path d="M130,10 C190,5 250,40 255,100 C260,160 200,195 140,190 C80,185 10,160 5,100 C0,40 70,15 130,10 Z" fill="#F5EDE4" opacity="0.7"/>
   </svg>
 </section>
 
@@ -1115,7 +1116,7 @@
       <a href="#contact" class="action-cta">
         <span>צרו קשר עוד היום</span>
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg" aria-hidden="true">
-          <path d="M5 12H19M12 5L19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M5 12H19M12 5L19 12L12 19" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </a>
     </div>
@@ -1156,7 +1157,7 @@
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:0546429908">0546429908</a></span>
+            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
             <span class="contact-text">[business_address]</span></a></li>
@@ -1200,7 +1201,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/0546429908" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
