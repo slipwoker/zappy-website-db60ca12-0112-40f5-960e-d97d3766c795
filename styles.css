@@ -2385,7 +2385,7 @@ main { flex: 1 0 auto; }
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 120px 24px 40px 24px;
+  padding: 40px 24px 40px 24px;
   text-align: start;
   display: flex;
   flex-direction: column;
@@ -2497,9 +2497,9 @@ main { flex: 1 0 auto; }
   }
 
   .index-hero-section .hero-overlay {
-    padding: 100px 16px 40px 16px;
-    gap: 16px;
-  }
+  padding: 30px 16px 40px 16px;
+  gap: 16px;
+}
 
   .index-hero-section .hero-headline {
     font-size: 2.2rem;
@@ -7949,6 +7949,11 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 #mic-init-access-tool #mic-access-tool-general-button,
 ._access-icon {
   display: flex !important;
+}
+
+.index-hero-section {
+  align-items: flex-start !important;
+  padding-top: 40px !important;
 }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
