@@ -48,7 +48,8 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Phone: 0546429908
+- Phone (tel): tel:0546429908
 
 ### Contact form
 - URL: https://example.com/contact

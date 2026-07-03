@@ -387,7 +387,7 @@ Description: מחפשים בייביסיטר אמינה ומסורה לשעות 
 
 - [business_email]
 
-- [business_phone]
+- 0546429908
 
 - [business_address]
 
@@ -796,7 +796,7 @@ Description: גלו איך כרמית כהן מתאימה את הטיפול הב
 
 - [business_email]
 
-- [business_phone]
+- 0546429908
 
 - [business_address]
 
@@ -1125,7 +1125,7 @@ Description: הכירו את כרמית כהן, בייביסיטר מנוסה ע
 
 - [business_email]
 
-- [business_phone]
+- 0546429908
 
 - [business_address]
 
@@ -1621,7 +1621,7 @@ Description: כל מה שרציתם לשאול בייביסיטר לבוקר –
 
 - [business_email]
 
-- [business_phone]
+- 0546429908
 
 - [business_address]
 
@@ -1851,7 +1851,7 @@ Description: מוכנים לשדרג את הבוקר המשפחתי? צרו קש
 
 
 
-[business_phone]
+0546429908
 
 
 
@@ -2000,7 +2000,7 @@ Description: מוכנים לשדרג את הבוקר המשפחתי? צרו קש
 
 - [business_email]
 
-- [business_phone]
+- 0546429908
 
 - [business_address]
 
@@ -2216,7 +2216,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 - אימייל: [business_email]
 
-- טלפון: [business_phone]
+- טלפון: 0546429908
 
 - כתובת: [business_address]
 
@@ -2269,7 +2269,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 - [business_email]
 
-- [business_phone]
+- 0546429908
 
 - [business_address]
 
@@ -2493,7 +2493,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 - אימייל: [business_email]
 
-- טלפון: [business_phone]
+- טלפון: 0546429908
 
 
 
@@ -2547,7 +2547,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 - [business_email]
 
-- [business_phone]
+- 0546429908
 
 - [business_address]
 
@@ -2794,7 +2794,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 - אימייל: [business_email]
 
-- טלפון: [business_phone]
+- טלפון: 0546429908
 
 - כתובת: [business_address]
 
@@ -2844,7 +2844,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 - [business_email]
 
-- [business_phone]
+- 0546429908
 
 - [business_address]
 
@@ -3052,7 +3052,7 @@ Description: כרמית כהן - תודה — ההודעה התקבלה
 
 - [business_email]
 
-- [business_phone]
+- 0546429908
 
 - [business_address]
 
