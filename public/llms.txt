@@ -7,41 +7,41 @@
 ## Pages
 
 ### בית
-https://example.com
+https://karmit-cohen.zappy5.app
 מחפשים בייביסיטר אמינה ומסורה לשעות הבוקר? כרמית כהן מציעה טיפול חם ואיכותי לילדיכם. לחצו לפרטים ולהתאמת מטפלת שתעניק לכם שקט אמיתי.
 
 ### כושר טיפולי בוקר
-https://example.com/morning-care-fit
+https://karmit-cohen.zappy5.app/morning-care-fit
 גלו איך כרמית כהן מתאימה את הטיפול הבוקרי לצרכים הייחודיים של ילדיכם. שילוב מנצח של ניסיון, רגישות ואנרגיה חיובית. התחילו את הבוקר נכון!
 
 ### אודות כרמית
-https://example.com/about
+https://karmit-cohen.zappy5.app/about
 הכירו את כרמית כהן, בייביסיטר מנוסה עם תשוקה אמיתית לטיפול בילדים בשעות הבוקר. קראו על הגישה הייחודית שלה ולמה הורים סומכים עליה.
 
 ### שאלות הורים
-https://example.com/parent-questions
+https://karmit-cohen.zappy5.app/parent-questions
 כל מה שרציתם לשאול בייביסיטר לבוקר – מרוכז במקום אחד. כרמית כהן עונה על שאלות נפוצות כדי שתוכלו לצאת לעבודה בראש שקט. היכנסו עכשיו!
 
 ### צור קשר
-https://example.com/contact
+https://karmit-cohen.zappy5.app/contact
 מוכנים לשדרג את הבוקר המשפחתי? צרו קשר עם כרמית כהן עוד היום לשיחת התאמה קצרה. בייביסיטר מקצועית שמחכה לשמוע מכם!
 
 ### תודה — ההודעה התקבלה
-https://example.com/thank-you
+https://karmit-cohen.zappy5.app/thank-you
 כרמית כהן - תודה — ההודעה התקבלה
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://karmit-cohen.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://karmit-cohen.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://karmit-cohen.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -52,8 +52,8 @@ Information about WCAG compliance and accessibility features.
 - Phone (tel): tel:0546429908
 
 ### Contact form
-- URL: https://example.com/contact
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://karmit-cohen.zappy5.app/contact
+- Endpoint: https://karmit-cohen.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -83,6 +83,6 @@ Childcare & Babysitting
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://karmit-cohen.zappy5.app/sitemap.xml
+- Robots: https://karmit-cohen.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://karmit-cohen.zappy5.app/llms-full.txt
